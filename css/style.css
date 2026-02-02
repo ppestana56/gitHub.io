@@ -61,13 +61,11 @@ html {
 }
 
 body {
-    font-family: var(--font-sans);
-    line-height: 1.6;
-    color: var(--color-dark);
-    background-color: var(--color-white);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background-color: #ffffff;
+    /* Imagem de curvas de nível subtis */
+    background-image: url("https://www.transparenttextures.com/patterns/topography.png");
+    background-attachment: fixed;
+    opacity: 0.95; 
 }
 
 /* Container utility */
