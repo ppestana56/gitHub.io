@@ -1,5 +1,3 @@
-h1 { color: red !important; }
-
 /* 
  * Main CSS file for Pedro Pestana's professional website
  * This uses a utility-class inspired approach similar to Tailwind
@@ -63,10 +61,18 @@ html {
 }
 
 body {
-    background-color: #f1f5f9; /* Um cinza azulado muito claro para destacar as linhas brancas */
+    /* Um tom cinza-azulado muito suave para destacar as linhas brancas do mapa */
+    background-color: #f1f5f9; 
+    
+    /* A imagem de curvas de nível */
     background-image: url("https://www.transparenttextures.com/patterns/topography.png");
+    
+    /* Garante que o mapa não se mexe quando faz scroll */
     background-attachment: fixed;
-    /* Remove a linha da opacity se quiseres que o texto fique nítido */
+    
+    /* Removemos a opacidade aqui para não afetar o texto do site */
+    margin: 0;
+    padding: 0;
 }
 
 /* Container utility */
