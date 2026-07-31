@@ -2,4 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
+User-agent: Googlebot
+Disallow: /$
+
 Sitemap: https://www.pedropestana.com/sitemap.xml
